@@ -1,13 +1,8 @@
 # DFANet for segmentation of cloud images
 ______________________________________________
 
-基于DFANet:Deep Feature Aggregation for Real-Time Semantic Segmentation (CVPR2019)深度特征聚合网络。因为文章代码暂时还没有开源，所以复现的网络在细节上可能有一些问题。iou在0.87～0.88之间，F1，P，R，Acc在0.93左右。输入600x600大小的云图，显卡为GTX2080的条件下FPS约为100。保存的模型大小为7.8m。
-结果如下图右侧图为预测值：
+基于DFANet:Deep Feature Aggregation for Real-Time Semantic Segmentation (CVPR2019)深度特征聚合网络。因为文章代码暂时还没有开源，所以复现的网络在细节上可能有一些问题。
 
-<img src="result/0sigmoid.png" alt="1" align=center />
-<img src="result/10sigmoid.png" alt="2" align=center />
-<img src="result/15sigmoid.png" alt="3" align=center />
-<img src="result/25sigmoid.png" alt="3" align=center />
 
 ## 1.环境要求
     Python 3.6
